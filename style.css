@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+}
+
+#welcome {
+    height: 550px;
+    position: absolute;
+    color: floralwhite;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#2ed13c 0%, #14dec6 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    opacity: 0.83;
+    z-index: 9;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 3;
+    text-align: center;
+}
+
+#name {
+    font-size: 20px;
+    font-family: fantasy;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 0.5;
+}
+
+#bio {
+    text-align: center;
+    font-size: 45.5px;
+    padding: 50px;
+}
+
+.line {
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 450px;
+    margin: 25px auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    font-family: sans-serif;
+    top: 5px;
+    right: 9px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: crimson;
+}
